@@ -1,4 +1,3 @@
-from os import error
 import sys
 
 def help():
@@ -10,7 +9,6 @@ def main():
     argi = 1
     while len(sys.argv) > argi:
         if len(sys.argv) > argi:
-            print(sys.argv[argi])
             match sys.argv[argi]:
                 # Display version then exit the program
                 case "-v" | "--version":
