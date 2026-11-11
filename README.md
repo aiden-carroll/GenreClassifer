@@ -23,7 +23,8 @@ pip install -r requirements.txt
 '''
 Go to the repository https://github.com/mdeff/fma
 Download the fma_metadata.zip
-Move features.csv to data/fma/features.csv
+Move features.csv to data/fma folder
+Move genres.csv to data/fma folder
 '''
 
 ## Resources
