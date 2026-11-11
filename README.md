@@ -19,6 +19,14 @@ virtualenv .venv
 pip install -r requirements.txt
 ```
 
+## Setup Training Data
+'''
+Go to the repository https://github.com/mdeff/fma
+Download the fma_metadata.zip
+Move features.csv to data/fma folder
+Move genres.csv to data/fma folder
+'''
+
 ## Resources
 ### Testing Library:
 https://www.geeksforgeeks.org/python/unit-testing-python-unittest/
