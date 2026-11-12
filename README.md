@@ -23,6 +23,8 @@ pip install -r requirements.txt
 
 <pre>
 Download the <a href=https://os.unil.cloud.switch.ch/fma/fma_metadata.zip>fma_metadata.zip</a>
+Create a data subfolder inside the repo
+Create a fma subfolder inside the data folder
 Move features.csv to data/fma folder
 Move genres.csv to data/fma folder
 </pre>
