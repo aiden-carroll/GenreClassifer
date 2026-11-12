@@ -20,12 +20,13 @@ pip install -r requirements.txt
 ```
 
 ## Setup Training Data
-```
-Go to the repository <https://github.com/mdeff/fma>
+
+<pre>
+Go to the repository <a href="https://github.com/mdeff/fma">https://github.com/mdeff/fma</a>
 Download the fma_metadata.zip
 Move features.csv to data/fma folder
 Move genres.csv to data/fma folder
-```
+</pre>
 
 ## Resources
 ### Testing Library:
