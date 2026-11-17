@@ -20,12 +20,15 @@ pip install -r requirements.txt
 ```
 
 ## Setup Training Data
-'''
-Go to the repository https://github.com/mdeff/fma
-Download the fma_metadata.zip
-Move features.csv to data/fma folder
-Move genres.csv to data/fma folder
-'''
+
+<pre>
+Download the <a href=https://os.unil.cloud.switch.ch/fma/fma_metadata.zip>fma_metadata.zip</a>
+Unzip the folder to get the .csv files
+Create a <b>data</b> subfolder inside the repo root
+Create a <b>fma</b> subfolder inside the <b>data</b> folder
+Move <b>features.csv</b> from the download to <b>data/fma</b> folder
+Move <b>genres.csv</b> from the download to <b>data/fma</b> folder
+</pre>
 
 ## Resources
 ### Testing Library:
