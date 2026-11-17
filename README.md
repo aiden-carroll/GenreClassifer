@@ -28,6 +28,7 @@ Create a <b>data</b> subfolder inside the repo root
 Create a <b>fma</b> subfolder inside the <b>data</b> folder
 Move <b>features.csv</b> from the download to <b>data/fma</b> folder
 Move <b>genres.csv</b> from the download to <b>data/fma</b> folder
+Move <b>tracks.csv</b> from the download to <b>data/fma</b> folder
 </pre>
 
 ## Resources
