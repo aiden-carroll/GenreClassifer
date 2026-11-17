@@ -1,4 +1,5 @@
 .venv
 .vscode
 /data
+/cache
 __pycache__/
