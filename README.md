@@ -50,21 +50,16 @@ https://www.geeksforgeeks.org/python/unit-testing-python-unittest/
 
 #### Functions
 
-We are starting with:
+We are using standard cross-entropy given from the following function:
 
 $$L = \frac{1}{N}\sum_i -\log p_{i,\,y_i}$$
 
-subject to change into:
-
-$$L = \frac{\sum_i w_{y_i},\bigl(-\log p_{i,\,y_i}\bigr)}{\sum_i w_{y_i}}$$
-
-where weights are calculated:
-
-$$w_c = \frac{N}{K \cdot n_c}$$
-
 ### Optimization
 
-For now the optimization follows a simple gradient descent
+The optimization follows the Adam's algorithm
+
+This uses a running count of squared gradients, dividing it by the square root. This lessens the gradient count to fit within a
+32 bit float, while keeping or improving the accuracy
 
 #### One varible example
 
@@ -75,7 +70,5 @@ the gradient is: $f'(x) = 2(x-3)$
 so we find the local minima: $x=3$
 
 #### We apply this to the loss function
-
-In the loss function: $$L = \frac{1}{N}\sum_i -\log p_{i,\,y_i}$$
 
 Using PyTorch's `loss.backwards()` function we break the function down for us and find its gradiant (internally using the chain rule).
