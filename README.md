@@ -24,17 +24,17 @@ pip install -r requirements.txt
 
 ## Setup Training Data
 
-<pre>
-Download the <a href=https://os.unil.cloud.switch.ch/fma/fma_metadata.zip>fma_metadata.zip</a>
-Unzip the folder to get the .csv files
-Create a <b>data</b> subfolder inside the repo root
-Create a <b>fma</b> subfolder inside the <b>data</b> folder
-Move <b>features.csv</b> from the download to <b>data/fma</b> folder
-Move <b>genres.csv</b> from the download to <b>data/fma</b> folder
-Move <b>tracks.csv</b> from the download to <b>data/fma</b> folder
-</pre>
+1. Download the [fma_metadata.zip](https://os.unil.cloud.switch.ch/fma/fma_metadata.zip)
+2. Unzip the folder to get the .csv files
+3. Create a **data** subfolder inside the repo root
+4. Create a **fma** subfolder inside the **data** folder
+5. Move **features.csv** from the download to **data/fma** folder
+6. Move **genres.csv** from the download to **data/fma** folder
+7. Move **tracks.csv** from the download to **data/fma** folder
 
-```Create a cache folder inside the repo root```
+## Setup Caching
+
+Create a cache folder inside the repo root
 
 ## Resources
 
