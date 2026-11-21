@@ -1,7 +1,8 @@
 # GenreClassifer
 
 ## Setup (Linux)
-```
+
+```bash
 git clone "https://github.com/aiden-carroll/GenreClassifer"
 cd GenreClassifier
 pip install virtualenv
@@ -9,8 +10,10 @@ virtualenv .venv
 source .venv/bin/activate
 .venv/bin/pip install -r requirements.txt
 ```
+
 ## Setup (Windows)
-```
+
+```bash
 git clone "https://github.com/aiden-carroll/GenreClassifer"
 cd GenreClassifier
 pip install virtualenv
@@ -31,9 +34,13 @@ Move <b>genres.csv</b> from the download to <b>data/fma</b> folder
 Move <b>tracks.csv</b> from the download to <b>data/fma</b> folder
 </pre>
 
+```Create a cache folder inside the repo root```
+
 ## Resources
-### Testing Library:
-https://www.geeksforgeeks.org/python/unit-testing-python-unittest/
+
+### Testing Library
+
+<https://www.geeksforgeeks.org/python/unit-testing-python-unittest/>
 
 ## Specifics
 
@@ -41,11 +48,11 @@ https://www.geeksforgeeks.org/python/unit-testing-python-unittest/
 
 #### Symbol meanings
 
-| Symbol | Meaning |
-|--------|---------|
-|    N   | Number of tracks |
-|   i    | Which track from 1 to N |
-| $y_i$  | True genre of track given as id |
+| Symbol        | Meaning                                       |
+|---------------|-----------------------------------------------|
+|    N          | Number of tracks                              |
+|   i           | Which track from 1 to N                       |
+| $y_i$         | True genre of track given as id               |
 | $p_{i,\,y_i}$ | Probability of model to give matching true id |
 
 #### Functions
