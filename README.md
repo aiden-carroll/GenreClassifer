@@ -38,6 +38,24 @@ Create a cache folder inside the repo root
 
 ## Resources
 
+### Training Pipeline Diagram
+
+```mermaid
+flowchart LR
+    FMADB(FMA Data Files) --> GenreMatching(Match Genre Labels)
+
+    GenreMatching --> ShuffleSplit("Shuffle and Split 80 / 20")
+
+    subgraph TrainingLoop [Training Loop]
+        Batch --> Neural(Neural Network)
+        Neural --> CrossEntropy(Cross Entropy Loss)
+        CrossEntropy --> Backprop(Backpropagation)
+        Backprop --> Batch
+    end
+
+    ShuffleSplit ==> Batch(Batch of 64 Tracks)
+```
+
 ### Testing Library
 
 <https://www.geeksforgeeks.org/python/unit-testing-python-unittest/>
